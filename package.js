@@ -16,7 +16,6 @@ Package.onUse(function(api){
         "mongo",
         "ejson"
     ]);
-    api.use("iron:router@1.0.0", ["client", "server"], { weak: true });
 
     api.use([
         "templating",
